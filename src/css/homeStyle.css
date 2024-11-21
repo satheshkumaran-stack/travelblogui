@@ -1,0 +1,59 @@
+.placesimg {
+    width: 100%;
+    margin: 0;
+    border-radius: 10px;
+    height: 200px;
+    max-height: 200px;
+}
+.placesul {
+    padding: 0px;
+}
+.placespan{
+    padding: 0px;
+    margin-left: 10px;
+}
+#img-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+#img-wrapper > div {
+    flex: 0 1 33%;
+}
+.divstyle {
+    display: inline-flex;
+}
+.atag {
+    text-decoration: none;
+    color: #b46767;
+    font-weight: bold;
+    font-style: italic;
+    cursor: pointer;
+}
+.atag:hover {
+    text-decoration: underline;
+    color: #645CFC;
+    font-weight: bold;
+    font-style: italic;
+    cursor: pointer;
+}
+.spandate {
+    font-weight: bold;
+    font-style: italic;
+    color:#b46767;
+    margin-right: 15px;
+}
+.commentstxt {
+    font-style: italic;
+    margin-left: 15px;
+}
+.divsize {
+    width: 40% !important;
+    height: auto !important;
+}
+.sectionview {
+    border: 1px solid #ccc;
+}
+.btnaddcomment {
+    width: 30% !important;
+    margin-left: 10px;
+}
